@@ -1,0 +1,14 @@
+{
+  "name": "Count Quote Words",
+  "version": "1.0",
+  "description": "Count the words in quotes",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "permissions": ["activeTab", "declarativeContent"],
+  "page_action": {
+    "default_popup": "popup.html"
+  },
+  "manifest_version": 2
+}
